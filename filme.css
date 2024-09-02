@@ -1,0 +1,32 @@
+body{
+	padding: 0%;
+	margin: 0%;
+}
+
+.menu{
+	background-color: #000103;
+	width: 100%;
+}
+
+.menu #logo-menu{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	padding: 2%;
+}
+
+.filme{
+	padding: 10%;
+	display: flex;
+}
+
+.filme img{
+	width: 250px;
+}
+
+.filme article{
+	padding-left: 5%;
+	font-family: Calibri;
+	color: rgb(8, 8, 8);
+}

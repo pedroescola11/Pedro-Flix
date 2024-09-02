@@ -1,0 +1,44 @@
+body{
+	padding: 0%;/*espaçamento*/
+	margin: 0%;/*margem*/
+	background-image: url('../img/netflix.png');/*imagem do fundo, o ".." fala para abrir outra pasta*/
+	background-size: 10% 10%;/*tamanho da imagem do fundo*/
+}
+
+.menu{
+	background-color: #080000;/*define a cor do fundo de onde é referenciado*/
+	width: 100%/*tamanho da imagem*/
+}
+
+.menu #logo-menu{
+	display: block;/*serve para deixar a imagem em bloco para posicionar*/
+	margin-left: auto;/*espaçamento da esquerda*/
+	margin-right: auto;/*serve para centralizar a imagem*/
+	width: 200px;/*tamanho da imagem*/
+	padding: 2%;/*espaçamento*/
+}
+
+.filmes{
+	padding: 5%;/*espaçamento*/
+	text-align: center;/*centralizar elemnto*/
+}
+
+.filmes #capa-filme{
+	display: inline-block;/*bloco em linhas*/
+	padding-right: 2%;/*espaçamento a direita*/
+}
+
+.filmes #capa-filme img{
+	width: 200px;/*tamanho da imagem*/
+}
+
+.filmes #capa-filme img:hover{/*comando que faz a imagem ter animada*/
+	transition: 0.3s;
+	scale: 1.1 ;
+	-webkit-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.90);/*serve para colocar sombra na imagem*/
+	-moz-box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.90);
+	box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.90);
+}
+
+
+	
